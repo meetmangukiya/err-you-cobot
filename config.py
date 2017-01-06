@@ -21,3 +21,6 @@ BOT_ADMINS = ('meetmangukiya', )  # !! Don't leave that to "CHANGE ME" if you co
 BOT_IDENTITY = {
     'token' : '<token>'
 }
+
+CHATROOM_PRESENCE = ('coala/cobot-test', 'coala/errbot') # rooms to join 
+CHATROOM_FN = '<bot username>'
