@@ -17,3 +17,7 @@ BOT_LOG_FILE = os.path.join(os.getcwd(), 'errbot.log')
 BOT_LOG_LEVEL = logging.DEBUG
 
 BOT_ADMINS = ('meetmangukiya', )  # !! Don't leave that to "CHANGE ME" if you connect your errbot to a chat system !!
+
+BOT_IDENTITY = {
+    'token' : '<token>'
+}
