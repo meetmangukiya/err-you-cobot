@@ -1,0 +1,11 @@
+architect:
+  meetmangukiya, nemaniarjun
+
+install:
+  - if ! pip3 -V ; then wget -O - https://bootstrap.pypa.io/get-pip.py | python3; fi
+
+merge:
+  fast-forward: only
+
+docker:
+  image: "coala/rultor-python"
