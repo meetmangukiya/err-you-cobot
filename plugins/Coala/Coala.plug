@@ -1,0 +1,9 @@
+[Core]
+Name = Coala
+Module = Coala
+
+[Documentation]
+Description = A script to shout at the user for using an uppercased c in coala.
+
+[Python]
+Version = 2+
