@@ -1,0 +1,9 @@
+[Core]
+Name = github
+Module = github
+
+[Documentation]
+Description = perform various github operations through bot
+
+[python]
+Version = 3+
