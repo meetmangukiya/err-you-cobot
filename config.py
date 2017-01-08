@@ -16,11 +16,13 @@ BOT_EXTRA_PLUGIN_DIR = os.path.join(os.getcwd(), 'plugins')
 BOT_LOG_FILE = os.path.join(os.getcwd(), 'errbot.log')
 BOT_LOG_LEVEL = logging.DEBUG
 
-BOT_ADMINS = ('meetmangukiya', )  # !! Don't leave that to "CHANGE ME" if you connect your errbot to a chat system !!
+BOT_ADMINS = (os.environ.get('BOT_ADMIN'), )  # !! Don't leave that to "CHANGE ME" if you connect your errbot to a chat system !!
 
 BOT_IDENTITY = {
-    'token' : '<token>'
+    'token' : os.environ.get("GITTER_TOKEN")
 }
 
+
 CHATROOM_PRESENCE = ('coala/cobot-test', 'coala/errbot') # rooms to join 
-CHATROOM_FN = '<bot username>'
+
+CHATROOM_FN = os.environ.get("GITTER_USER", "")
