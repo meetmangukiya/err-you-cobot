@@ -1,0 +1,9 @@
+[Core]
+Name = Ship it
+Module = ShipIt
+
+[Documentation]
+Description = A script to display a squirrel.
+
+[Python]
+Version = 2+
